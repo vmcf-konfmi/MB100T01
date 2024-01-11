@@ -1,0 +1,38 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+
+options: # The options key will be applied to all chapters, but not sub-sections
+  numbered: False
+
+parts:
+  - caption: Introduction
+    chapters:
+      - file: 00_python/00_python_intro
+        sections:
+          - file: 00_python/01_Python_Basics
+
+
+  - caption: Pandas and Statistics
+    chapters:    
+      - file: 01_pandas_statistics/intro
+        sections:
+          - file: 01_pandas_statistics/00_Pandas
+          - file: 01_pandas_statistics/01_Pandas_Intro
+          - file: 01_pandas_statistics/02_Pandas_operations
+          - file: 01_pandas_statistics/03_Pandas_EDA
+          - file: 01_pandas_statistics/04_Pandas_Bonus
+          - file: 01_pandas_statistics/05_Statistic
+          
+          
+  - caption: Plotting
+    chapters: 
+        - file: 02_plotting/intro
+          sections:
+            - file: 02_plotting/00_Intro_matplotlib
+            - file: 02_plotting/01_Introduction_to_Seaborn
+            - file: 02_plotting/02_Using_Seaborn
+            - file: 02_plotting/03_Statistic_Annotations_in_Seaborn_Bonus
+            
