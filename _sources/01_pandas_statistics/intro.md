@@ -12,10 +12,7 @@ To get the most of this and the follwoing chapters' content running in your comp
  * statannotations (for adding statistical test results to plots)
  * scikit_posthocs (for post-tests)
 
-Open a terminal, activate the environment and install the necessary additional packages by running the commands below:
 
-```
-mamba activate devbio-napari-env
-
-pip install scikit_posthocs statannotations watermark pivottablejs seaborn==0.12.2
-```
+We will use these two presentations:
+ * [Tabular_Data](./Tabular_Data.pdf)
+ * [Statistics](./Statistics.pdf)

@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Brief introduction to Python &#8212; Advanced Image Analysis (MB100T01)</title>
+    <title>Python &#8212; Advanced Image Analysis (MB100T01)</title>
   
   
   
@@ -69,11 +69,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = '00_python/00_python_intro';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '00_python/00_Python_prez';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Python" href="00_Python_prez.html" />
-    <link rel="prev" title="Welcome to MB100T01 Course" href="../intro.html" />
+    <link rel="next" title="Introduction to Python in Jupyter Notebook/Google Colab" href="01_Python_Basics.html" />
+    <link rel="prev" title="Brief introduction to Python" href="00_python_intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -177,8 +177,8 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Introduction</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Brief introduction to Python</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="00_Python_prez.html">Python</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="00_python_intro.html">Brief introduction to Python</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Python</a></li>
 <li class="toctree-l2"><a class="reference internal" href="01_Python_Basics.html">Introduction to Python in Jupyter Notebook/Google Colab</a></li>
 
 
@@ -278,7 +278,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/vmcf-konfmi/MB100T01/issues/new?title=Issue%20on%20page%20%2F00_python/00_python_intro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/vmcf-konfmi/MB100T01/issues/new?title=Issue%20on%20page%20%2F00_python/00_Python_prez.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -308,7 +308,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../_sources/00_python/00_python_intro.md" target="_blank"
+      <li><a href="../_sources/00_python/00_Python_prez.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -379,7 +379,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -390,11 +392,20 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Brief introduction to Python</h1>
+    <h1>Python</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-points">Key Points</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -404,21 +415,64 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="brief-introduction-to-python">
-<h1>Brief introduction to Python<a class="headerlink" href="#brief-introduction-to-python" title="Permalink to this heading">#</a></h1>
-<p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
-Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a “<em>batteries included</em>” language due to its comprehensive standard library.</p>
-<p>Its core philosophy is summarized in the document <em>The Zen of Python</em> (PEP 20), which includes aphorisms such as:</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="python">
+<h1>Python<a class="headerlink" href="#python" title="Permalink to this heading">#</a></h1>
+<p>This section focuses on introduction to Python. Python is a versatile and beginner-friendly programming language widely used in various fields, including computer science, data science, web development, and artificial intelligence.</p>
+<section id="key-points">
+<h2>Key Points<a class="headerlink" href="#key-points" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p><strong>Readable and Easy to Learn:</strong></p>
 <ul class="simple">
-<li><p>Beautiful is better than ugly.</p></li>
-<li><p>Explicit is better than implicit.</p></li>
-<li><p>Simple is better than complex.</p></li>
-<li><p>Complex is better than complicated.</p></li>
-<li><p>Readability counts.</p></li>
+<li><p>Python is designed for simplicity and readability, making it easy for beginners to understand.</p></li>
 </ul>
-<p>Rather than building all of its functionality into its core, Python was designed to be highly extensible via modules. This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. Van Rossum’s vision of a small core language with a large standard library and easily extensible interpreter stemmed from his frustrations with ABC programming language, which espoused the opposite approach.</p>
-<div class="toctree-wrapper compound">
-</div>
+</li>
+<li><p><strong>Interpreted Language:</strong></p>
+<ul class="simple">
+<li><p>Python is interpreted, allowing you to run code without a separate compilation step, making development faster and more interactive.</p></li>
+</ul>
+</li>
+<li><p><strong>General-Purpose:</strong></p>
+<ul class="simple">
+<li><p>Python is a general-purpose language suitable for diverse applications, from web development to scripting.</p></li>
+</ul>
+</li>
+<li><p><strong>Extensive Standard Library:</strong></p>
+<ul class="simple">
+<li><p>Python comes with a rich standard library, reducing the need for writing code from scratch for common tasks.</p></li>
+</ul>
+</li>
+<li><p><strong>Community Support:</strong></p>
+<ul class="simple">
+<li><p>A large and active community provides resources, tutorials, and forums for support and collaboration.</p></li>
+</ul>
+</li>
+<li><p><strong>Object-Oriented Programming:</strong></p>
+<ul class="simple">
+<li><p>Python supports object-oriented programming, organizing code in a modular way.</p></li>
+</ul>
+</li>
+<li><p><strong>Versatility in Application:</strong></p>
+<ul class="simple">
+<li><p>Used in web development (Django, Flask), data science (NumPy, TensorFlow), and more, making it versatile for different career paths.</p></li>
+</ul>
+</li>
+<li><p><strong>Cross-Platform Compatibility:</strong></p>
+<ul class="simple">
+<li><p>Compatible with major operating systems (Windows, macOS, Linux), ensuring code can run on different platforms without modification.</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this heading">#</a></h2>
+<p>In summary, Python is a beginner-friendly, versatile, and powerful programming language, providing a solid foundation for learning how to program. Its simplicity, readability, and extensive community support make it an excellent choice for beginners.</p>
+<p>We will use these presentations:</p>
+<ul class="simple">
+<li><p><a class="reference download internal" download="" href="../_downloads/3160c328ed31a2b483a2d6f2dd5f70af/Python_basics.pdf"><span class="xref download myst">Python_basics</span></a></p></li>
+<li><p><a class="reference download internal" download="" href="../_downloads/e45e29ef85b10504a2ea20e9cbd660cb/Python_algorithms.pdf"><span class="xref download myst">Python_algorithms</span></a></p></li>
+<li><p><a class="reference download internal" download="" href="../_downloads/c2f6c663f6c614e7d4e613bfb76ac7f4/KONFMI_prez_Python.pdf"><span class="xref download myst">Short - KONFMI_prez_Python</span></a></p></li>
+</ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -452,20 +506,20 @@ Python is dynamically-typed and garbage-collected. It supports multiple programm
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../intro.html"
+       href="00_python_intro.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Welcome to MB100T01 Course</p>
+        <p class="prev-next-title">Brief introduction to Python</p>
       </div>
     </a>
     <a class="right-next"
-       href="00_Python_prez.html"
+       href="01_Python_Basics.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Python</p>
+        <p class="prev-next-title">Introduction to Python in Jupyter Notebook/Google Colab</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -475,6 +529,21 @@ Python is dynamically-typed and garbage-collected. It supports multiple programm
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-points">Key Points</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
