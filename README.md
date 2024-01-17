@@ -1,5 +1,7 @@
 # Advanced Image Analysis (MB100T01)
 
+You can find the book on [https://vmcf-konfmi.github.io/MB100T01/intro.html](https://vmcf-konfmi.github.io/MB100T01/intro.html).
+
 This cookiecutter creates a simple boilerplate for a Jupyter Book.
 
 ## Usage
@@ -10,11 +12,11 @@ If you'd like to develop and/or build the Advanced Image Analysis (MB100T01) boo
 
 1. Clone this repository
 2. Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
-3. (Optional) Edit the books source files located in the `advanced_image_analysis_(mb100t01)/` directory
-4. Run `jupyter-book clean advanced_image_analysis_(mb100t01)/` to remove any existing builds
-5. Run `jupyter-book build advanced_image_analysis_(mb100t01)/`
+3. (Optional) Edit the books source files located in the `advanced_image_analysis_mb100t01/` directory
+4. Run `jupyter-book clean advanced_image_analysis_mb100t01/` to remove any existing builds
+5. Run `jupyter-book build advanced_image_analysis_mb100t01/`
 
-A fully-rendered HTML version of the book will be built in `advanced_image_analysis_(mb100t01)/_build/html/`.
+A fully-rendered HTML version of the book will be built in `gh-pages` branch.
 
 ### Hosting the book
 

@@ -5,3 +5,7 @@ This part will teach you how to plot data with matplotlib and seaborn. We start 
 We then look at sophisticated and stylish plots straight from pandas dataframes. You will learn how to plot scatter plots, boxplots, distribution plots and even multivariate plots. We also show how to add statistical annotations to your plots as a convenient way to display statistical test results on the figures.
 
 Finally, you will employ all the tools learned during the previous sections to work on a complete image analysis workflow, from reading raw images, through image processing and feature extraction, to displaying your data analysis results in figures.
+
+We will use these two presentations:
+ * [Preparing Visuals of Data Analysis DV](./Preparing Visuals of Data Analysis DV.pdf)
+ * [Plotting](./Plotting.pdf)

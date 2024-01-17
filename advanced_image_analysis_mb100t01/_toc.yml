@@ -12,6 +12,7 @@ parts:
     chapters:
       - file: 00_python/00_python_intro
         sections:
+          - file: 00_python/00_Python_prez
           - file: 00_python/01_Python_Basics
 
 
