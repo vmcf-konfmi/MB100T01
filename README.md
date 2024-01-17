@@ -1,5 +1,7 @@
 # Advanced Image Analysis (MB100T01)
 
+You can find the book on [https://vmcf-konfmi.github.io/MB100T01/intro.html](https://vmcf-konfmi.github.io/MB100T01/intro.html).
+
 This cookiecutter creates a simple boilerplate for a Jupyter Book.
 
 ## Usage
