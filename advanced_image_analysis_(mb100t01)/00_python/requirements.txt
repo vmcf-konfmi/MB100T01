@@ -1,8 +1,0 @@
-pandas
-seaborn
-numpy
-matplotlib
-scipy
-statsmodels
-statannotations
-watermark
