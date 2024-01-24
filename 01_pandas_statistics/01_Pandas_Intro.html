@@ -425,7 +425,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="introduction-to-pandas">
+  <p><img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open in Google Colaboratory"></a><p><a href="https://githubtocolab.com/vmcf-konfmi/MB100T01/blob/main/advanced_image_analysis_mb100t01/01_pandas_statistics/01_Pandas_Intro.ipynb"></p>
+<section class="tex2jax_ignore mathjax_ignore" id="introduction-to-pandas">
 <h1>Introduction to Pandas<a class="headerlink" href="#introduction-to-pandas" title="Permalink to this heading">#</a></h1>
 <p><a class="reference external" href="http://pandas.pydata.org/"><em>pandas</em></a> is a column-oriented data analysis API. It’s a great tool for handling and analyzing input data, and many ML frameworks support <em>pandas</em> data structures as inputs.
 Although a comprehensive introduction to the <em>pandas</em> API would span many pages, the core concepts are fairly straightforward, and we’ll present them below. For a more complete reference, the <a class="reference external" href="http://pandas.pydata.org/pandas-docs/stable/index.html"><em>pandas</em> docs site</a> contains extensive documentation and many tutorials.</p>
@@ -1253,7 +1254,8 @@ Name: 2, dtype: float64
 </ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">blobs_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;../../data/blobs_statistics.csv&#39;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">blobs_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;https://github.com/vmcf-konfmi/MB100T01/raw/main/data/blobs_statistics.csv&quot;</span><span class="p">)</span>
+<span class="c1">#blobs_df = pd.read_csv(&#39;../../data/blobs_statistics.csv&#39;)</span>
 <span class="n">blobs_df</span>
 </pre></div>
 </div>

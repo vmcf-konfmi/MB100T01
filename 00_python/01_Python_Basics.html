@@ -445,7 +445,7 @@ content is available <a class="reference external" href="https://github.com/jcka
 <h1>Introduction to Python in Jupyter Notebook/Google Colab<a class="headerlink" href="#introduction-to-python-in-jupyter-notebook-google-colab" title="Permalink to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">!</span>pip<span class="w"> </span>install<span class="w"> </span>-q<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="ch">#!pip install -q -r requirements.txt</span>
 </pre></div>
 </div>
 </div>
@@ -576,11 +576,11 @@ content is available <a class="reference external" href="https://github.com/jcka
 <span class="nb">print</span><span class="p">(</span><span class="n">colors</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">colors</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
 
-<span class="c1">#Notice here how the first element of the list is index 0, not 1! </span>
+<span class="c1">#Notice here how the first element of the list is index 0, not 1!</span>
 <span class="c1">#Languages like MATLAB are 1 indexed, be careful!</span>
 
 <span class="c1">#In addition to lists, there are tuples</span>
-<span class="c1">#Tuples behave very similarly to lists except that you can&#39;t change them </span>
+<span class="c1">#Tuples behave very similarly to lists except that you can&#39;t change them</span>
 <span class="c1"># after you make them</span>
 
 <span class="c1">#An empty Tuple isn&#39;t very useful:</span>
@@ -595,9 +595,9 @@ content is available <a class="reference external" href="https://github.com/jcka
 <span class="c1">#You can access tuples just like lists</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">rosa_parks_info</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">rosa_parks_info</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
 
-<span class="c1"># You cannot modify existing tuples, but you can make new tuples that extend </span>
+<span class="c1"># You cannot modify existing tuples, but you can make new tuples that extend</span>
 <span class="c1"># the information.</span>
-<span class="c1"># I expect Tuples to come up less than lists. So we&#39;ll just leave it at that. </span>
+<span class="c1"># I expect Tuples to come up less than lists. So we&#39;ll just leave it at that.</span>
 </pre></div>
 </div>
 </div>
@@ -625,7 +625,7 @@ Rosa Parks
 <span class="nb">print</span><span class="p">(</span><span class="n">float1</span> <span class="o">*</span> <span class="n">float2</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">float1</span> <span class="o">/</span> <span class="n">float2</span><span class="p">)</span>
 
-<span class="c1">#Here&#39;s an interesting one that showed up in the first homework in 2017. Modulus: </span>
+<span class="c1">#Here&#39;s an interesting one that showed up in the first homework in 2017. Modulus:</span>
 <span class="nb">print</span><span class="p">(</span><span class="mi">5</span> <span class="o">%</span> <span class="mi">2</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -704,10 +704,10 @@ Rosa Parks
 <span class="k">while</span><span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">fib</span><span class="p">)):</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">fib</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
     <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
-    
+
 <span class="c1">#In matlab, to do the same thing you would have the conditional as: counter &lt; (length(fib) + 1)</span>
 <span class="c1">#This is because matlab starts indexing at 1, and python starts at 0.</span>
-    
+
 <span class="c1">#The above type of loop is so common that the &#39;for&#39; loop is the way to write it faster.</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Let&#39;s try that again&quot;</span><span class="p">)</span>

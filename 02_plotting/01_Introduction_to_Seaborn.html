@@ -418,7 +418,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="introduction-to-seaborn">
+  <p><img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open in Google Colaboratory"></a><p><a href="https://githubtocolab.com/vmcf-konfmi/MB100T01/blob/main/advanced_image_analysis_mb100t01/02_plotting/01_Introduction_to_Seaborn.ipynb"></p>
+<section class="tex2jax_ignore mathjax_ignore" id="introduction-to-seaborn">
 <h1>Introduction to Seaborn<a class="headerlink" href="#introduction-to-seaborn" title="Permalink to this heading">#</a></h1>
 <p>Sources and inspiration:</p>
 <ul class="simple">
@@ -482,7 +483,8 @@ document.write(`
 <p>Here is a similar example from a different dataset: intensity and shape measurements from objects in 2 fluorescence images.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">nuclei_features_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../../data/BBBC007_analysis.csv&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">nuclei_features_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;https://github.com/vmcf-konfmi/MB100T01/raw/main/data/BBBC007_analysis.csv&quot;</span><span class="p">)</span>
+<span class="c1">#nuclei_features_df = pd.read_csv(&quot;../../data/BBBC007_analysis.csv&quot;)</span>
 <span class="n">nuclei_features_df</span><span class="p">[</span><span class="s1">&#39;round&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">nuclei_features_df</span><span class="p">[</span><span class="s1">&#39;aspect_ratio&#39;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mf">1.2</span>
 <span class="n">nuclei_features_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
