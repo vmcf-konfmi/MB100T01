@@ -34,6 +34,6 @@ In summary, Python is a beginner-friendly, versatile, and powerful programming l
 
 
 We will use these presentations:
- * [Python_basics](./Python_basics.pdf)
- * [Python_algorithms](./Python_algorithms.pdf)
- * [Short - KONFMI_prez_Python](./KONFMI_prez_Python.pdf)
+ * [Python_basics](./Python_basics.pdf) - by Johannes Soltwedel
+ * [Python_algorithms](./Python_algorithms.pdf) - by Till Korten, Robert Haase
+ * [Short - KONFMI_prez_Python](./KONFMI_prez_Python.pdf) - by Martin Schätz
