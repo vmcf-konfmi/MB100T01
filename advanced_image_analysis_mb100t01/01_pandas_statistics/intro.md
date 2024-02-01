@@ -14,5 +14,5 @@ To get the most of this and the follwoing chapters' content running in your comp
 
 
 We will use these two presentations:
- * [Tabular_Data](./Tabular_Data.pdf)
- * [Statistics](./Statistics.pdf)
+ * [Tabular_Data](./Tabular_Data.pdf) - by Marcelo Leomil Zoccoler, Martin Schätz
+ * [Statistics](./Statistics.pdf) - by Marcelo Leomil Zoccoler, Martin Schätz
