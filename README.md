@@ -2,6 +2,9 @@
 
 You can find the book on [https://vmcf-konfmi.github.io/MB100T01/intro.html](https://vmcf-konfmi.github.io/MB100T01/intro.html).
 
+Part of materials are reused from: [https://github.com/BiAPoL/PoL-BioImage-Analysis-TS-Early-Career-Track](https://github.com/BiAPoL/PoL-BioImage-Analysis-TS-Early-Career-Track) The Jupyter book of the course can be viewed under this URL:
+https://biapol.github.io/PoL-BioImage-Analysis-TS-Early-Career-Track/
+
 This cookiecutter creates a simple boilerplate for a Jupyter Book.
 
 ## Usage
