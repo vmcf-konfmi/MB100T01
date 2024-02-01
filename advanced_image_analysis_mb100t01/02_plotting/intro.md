@@ -7,5 +7,5 @@ We then look at sophisticated and stylish plots straight from pandas dataframes.
 Finally, you will employ all the tools learned during the previous sections to work on a complete image analysis workflow, from reading raw images, through image processing and feature extraction, to displaying your data analysis results in figures.
 
 We will use these two presentations:
- * [Preparing Visuals of Data Analysis DV](./Preparing_Visuals_of_Data_Analysis_DV.pdf)
- * [Plotting](./Plotting.pdf)
+ * [Preparing Visuals of Data Analysis DV](./Preparing_Visuals_of_Data_Analysis_DV.pdf) - by Marcelo Leomil Zoccoler, Martin Schätz
+ * [Plotting](./Plotting.pdf) - by Marcelo Leomil Zoccoler, Martin Schätz
